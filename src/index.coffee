@@ -3,9 +3,7 @@ getto = require 'getto'
 extend = (obj, extensions) ->
   (obj[key] = value) for key, value of extensions
 
-module.exports = modelMixin = (mixin) ->
-  {statics, methods} = mixin
-
+module.exports = modelMixin = ({statics, methods}={}) ->
   statics ?= {}
   methods ?= {}
 
