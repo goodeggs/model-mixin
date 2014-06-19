@@ -11,7 +11,7 @@ of where it is running.
 
 In this quest we've been using a strategy in our apps at Good Eggs that achieves a similar end with a different strategy.
 We write mixins that add behavior to models from different frameworks. So if you have reference to a User model in
-Mongoose or Backbone, it has the same interface backed by the same code. It's not the final answer but yields a ton
+Mongoose or Backbone or as a JavaScript object from a JSON API, it has the same interface backed by the same code. It's not the final answer but yields a ton
 of immediate benefit in minimizing code duplication and sharing behavior across browser and server.
 
 ## Usage
