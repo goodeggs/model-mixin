@@ -15,10 +15,14 @@
   "homepage": "https://github.com/goodeggs/model-mixin",
   "bugs": "https://github.com/goodeggs/model-mixin/issues",
   "dependencies": {
+    "getto": "*"
   },
   "devDependencies": {
     "coffee-script": ">=1.7.x",
-    "mocha": "~1.x.x"
+    "mocha": "~1.x.x",
+    "chai": "~1.x.x",
+    "backbone": "~1.x.x",
+    "mongoose": "~3.x.x"
   },
   "scripts": {
     "compile": "coffee --bare --compile --output lib/ src/",

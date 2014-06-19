@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/goodeggs/model-mixin.png)](https://travis-ci.org/goodeggs/model-mixin)
 
-Helper for writing mixins to Mongoose models, Backbone models and plain ole JavaScript objects
+Helper for writing mixins to Mongoose models, Backbone models and plain ole JavaScript objects.
 
 ## License
 
