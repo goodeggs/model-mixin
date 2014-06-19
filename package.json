@@ -1,0 +1,30 @@
+{
+  "name": "model-mixin",
+  "version": "0.0.0",
+  "description": "Helper for writing mixins to Mongoose models, Backbone models and plain ole JavaScript objects",
+  "author": "Good Eggs <open-source@goodeggs.com>",
+  "contributors": [
+    "Alon Salant <alon@salant.org>"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goodeggs/model-mixin.git"
+  },
+  "homepage": "https://github.com/goodeggs/model-mixin",
+  "bugs": "https://github.com/goodeggs/model-mixin/issues",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.7.x",
+    "mocha": "~1.x.x"
+  },
+  "scripts": {
+    "compile": "coffee --bare --compile --output lib/ src/",
+    "build": "npm run compile",
+    "test": "mocha",
+  "test": "mocha",
+    "pretest": "npm run build"
+  }
+}
