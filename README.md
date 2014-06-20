@@ -1,4 +1,5 @@
 # model-mixin
+
 [![NPM version](https://badge.fury.io/js/model-mixin.png)](http://badge.fury.io/js/model-mixin)
 
 [![Build Status](https://travis-ci.org/goodeggs/model-mixin.png)](https://travis-ci.org/goodeggs/model-mixin)
