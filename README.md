@@ -5,6 +5,12 @@
 
 ## About
 
+`model-mixin` creates objects that can be used to mix a set of instance and static methods into a [Mongoose](http://mongoosejs.com) model, [Backbone](http://backbonejs.org) model, plain JavaScript object and classes/models from other frameworks.
+
+It's purpose is to enable a high degree of code reuse when building full stack JavaScript applications with domain model representations on both client and server.
+
+## Background
+
 At Good Eggs we are on a quest for a ubiquitous domain model implementation that works across frameworks in both the browser and in Node.js.
 When you have an instance of a domain model in our applications, we want it to have the same interface and behavior, regardless
 of where it is running.
@@ -75,6 +81,8 @@ UserMixin(user);
 
 console.log(user.uppercaseName()); // NOAH
 ```
+
+At Good Eggs we often use this last scenario when loading objects in bulk via Mongoose `lean` but still want to use our business logic on the loaded data.
 
 ## Code of Conduct
 
