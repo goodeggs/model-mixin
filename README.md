@@ -85,6 +85,14 @@ console.log(user.uppercaseName()); // NOAH
 
 At Good Eggs we often use this last scenario when loading objects in bulk via Mongoose `lean` but still want to use our business logic on the loaded data. How do mixins that access attributes via a `get` method work with plain objects? We use [getto](https://github.com/goodeggs/getto)!
 
+## Contributing
+
+```
+$ git clone https://github.com/goodeggs/getto && cd getto
+$ npm install
+$ npm test
+```
+
 ## Code of Conduct
 
 [Code of Conduct](https://github.com/goodeggs/model-mixin/blob/master/CODE_OF_CONDUCT.md)
