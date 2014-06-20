@@ -12,9 +12,9 @@ It's purpose is to enable a high degree of code reuse when building full stack J
 
 ## Background
 
-At Good Eggs we are on a quest for a ubiquitous domain model implementation that works across frameworks in both the browser and in Node.js.
+At [Good Eggs](http://www.goodeggs.com) we are on a quest for a ubiquitous domain model implementation that works across frameworks in both the browser and in Node.js.
 When you have an instance of a domain model in our applications, we want it to have the same interface and behavior, regardless
-of where it is running.
+of where it is running. We don't want it to be tied to some favorite framework of the day.
 
 In this quest we've been using a strategy in our apps at Good Eggs that achieves a similar end with a different strategy.
 We write mixins that add behavior to models from different frameworks. So if you have reference to a User model in
